@@ -18,6 +18,4 @@ def get_date_diff():
 			except Exception:
 				print('Value error. Please try again.')
 		duration = abs(date1 - date2)
-		print('The difference between ' + str(date1.year) + '-' + str(date1.month) + '-' + str(date1.day) + 
-          ' and ' + str(date2.year) + '-' + str(date2.month) + '-' + str(date2.day) + 
-          ' is: ' + str(duration.days) + ' days.')	
+		print('The difference between ' + str(date1.year) + '-' + str(date1.month) + '-' + str(date1.day) + ' and ' + str(date2.year) + '-' + str(date2.month) + '-' + str(date2.day) + ' is: ' + str(duration.days) + ' days.')	
